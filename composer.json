@@ -1,0 +1,26 @@
+{
+    "name": "daoued/typo3-datetimepicker",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://www.haythemdaoud.net/",
+    "version": "1.0.0",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "authors": [
+        {
+            "name": "Haythem Daoud",
+            "role": "TYPO3 Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Daoued\\Typo3Datetimepicker\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "typo3_datetimepicker"
+        }
+    }
+}

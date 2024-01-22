@@ -1,0 +1,16 @@
+button.shortcut-buttons-flatpickr-button {
+    background: transparent;
+    color: white;
+    border: none;
+}
+button.shortcut-buttons-flatpickr-button:hover {
+    cursor: pointer;
+    background: #434242;
+}
+.shortcut-buttons-flatpickr-buttons {
+    display: flex;
+    justify-content: center;
+    max-height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #424242;
+}
